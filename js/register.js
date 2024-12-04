@@ -4,7 +4,7 @@ async function handleRegister(userData) {
       console.log('User Data Received:', userData); // Confirm data capture in console
   
       // Replace with your actual backend API URL
-      const response = await fetch('http://localhost:3000/api/conversion/register', {
+      const response = await fetch('https://ebook-snowy-two.vercel.app/api/conversion/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
